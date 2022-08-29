@@ -8,8 +8,11 @@ public class Main {
     //insert code for factorial 
     
   }
-  
- 
+
+  static Integer maximum(Integer[] list) {
+    //insert code for max
+  }
+
   public static void main(String[] args) {
     Integer total = sum(5);
     Integer total2 = factorial(5);
