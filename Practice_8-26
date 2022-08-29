@@ -14,9 +14,12 @@ public class Main {
   }
 
   public static void main(String[] args) {
+    Integer[] intArray = {5,4,8,20,15,316,2,90};
     Integer total = sum(5);
     Integer total2 = factorial(5);
+    Integer actualMax = maximum(intArray);
     System.out.println(total);
     System.out.println(total2);
+    System.out.println(actualMax);
   }
 }
