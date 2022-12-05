@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>HOBO</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">QUESTIONS?</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/tech.html" class="navbar__links">What’s the site for?</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Common questions</a>
+          </li>
+          <li class="navbar__btn"><a href="/" class="button">Contact us!</a></li>
+        </ul>
+      </div>
+    </nav>
+ 
+    <!-- Hero Section -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Great workers</h1>
+          <h2>Constant hours</h2>
+          <p>Get all the help you need</p>
+          <button class="main__btn"><a href="#">Ask questions as soon as now!</a></button>
+        </div>
+        <div class="main__img--container">
+          <img id="main__img" src="images/pic1.svg" />
+        </div>
+      </div>
+    </div>
+ 
+    <!-- Services Section -->
+    <div class="services">
+      <h1>Ask questions as soon as now!</h1>
+      <div class="services__container">
+        <div class="services__card">
+          <h2>Get your questions answered</h2>
+          <p>Questions here</p>
+          <button>Ask questions now!</button>
+        </div>
+        <div class="services__card">
+          <h2>What questions do you have?</h2>
+          <p>Confused?</p>
+          <button>Ask questions now?</button>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">Ask questions here</a> <a href="/">Different categories</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+             <a href="/">Ambassadors</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+                <a href="/">Ambassadors</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">None</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo"><i class="fas fa-gem"></i>HOBO</a>
+          </div>
+          <p class="website__rights">© HOBO 2023. All rights reserved</p>
+          <div class="social__icons">
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="/"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="/"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber"
+              target="_blank"
+              aria-label="Youtube"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Twitter"
+            >
+              <i class="/"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="/"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
